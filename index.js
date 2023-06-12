@@ -7,7 +7,7 @@ app.use(express.json())
 app.use(express.urlencoded())
 app.use(cors())
 
-mongoose.connect("mongodb+srv://hello:hello554@cluster0.4t9eo3v.mongodb.net/myLoginRegisterDB", {
+mongoose.connect("mongodb+srv://aadirathsinghmongodb:up30u3534@cluster0.jeohall.mongodb.net/myLoginRegisterDB", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }, () => {
